@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body{
+			background-color: black;
+			margin: 0;
+			padding: 0;
+			z-index: 0;
+		}
+		#aa{
+			height: 150px;
+			width: 150px;
+			background-color: black;
+			border:5px groove black;
+			position: absolute;
+			left: 800px;
+			top: 400px;
+
+		}
+		#clrbxra{
+			height: 50px;
+			width: 50px;
+			background-color: red;
+			border:1px solid black;
+			position: absolute;
+			left: 750px;
+			top: 450px;
+		}
+		#clrbxrb{
+			height: 50px;
+			width: 50px;
+			background-color: red;
+			border:1px solid black;
+			position: absolute;
+			left: 700px;
+			top: 450px;
+		}
+		#clrbxrc{
+			height: 50px;
+			width: 50px;
+			background-color: red;
+			border:1px solid black;
+			position: absolute;
+			left: 650px;
+			top: 450px;
+		}
+		#clrbxrd{
+			height: 50px;
+			width: 50px;
+			background-color: red;
+			border:1px solid black;
+			position: absolute;
+			left: 600px;
+			top: 450px;
+		}
+		#clrbxre{
+			height: 50px;
+			width: 50px;
+			background-color: red;
+			border:1px solid black;
+			position: absolute;
+			left: 550px;
+			top: 450px;
+		}
+		#clrbxrf{
+			height: 50px;
+			width: 50px;
+			background-color: red;
+			border:1px solid black;
+			position: absolute;
+			left: 600px;
+			top: 500px;
+		}
+		#clrbxrg{
+			height: 50px;
+			width: 50px;
+			background-color: red;
+			border:1px solid black;
+			position: absolute;
+			left: 550px;
+			top: 400px;
+		}
+
+		#clrbxga{
+              height: 50px;
+			width: 50px;
+			background-color: green;
+			border:1px solid black;
+			position: absolute;
+			left: 850px;
+			top: 350px;
+		}
+		#clrbxgb{
+              height: 50px;
+			width: 50px;
+			background-color: green;
+			border:1px solid black;
+			position: absolute;
+			left: 850px;
+			top: 300px;
+		}
+		#clrbxgc{
+              height: 50px;
+			width: 50px;
+			background-color: green;
+			border:1px solid black;
+			position: absolute;
+			left: 850px;
+			top: 250px;
+		}
+		#clrbxgd{
+              height: 50px;
+			width: 50px;
+			background-color: green;
+			border:1px solid black;
+			position: absolute;
+			left: 850px;
+			top: 200px;
+		}
+		#clrbxge{
+              height: 50px;
+			width: 50px;
+			background-color: green;
+			border:1px solid black;
+			position: absolute;
+			left: 850px;
+			top: 150px;
+		}
+		#clrbxgf{
+              height: 50px;
+			width: 50px;
+			background-color: green;
+			border:1px solid black;
+			position: absolute;
+			left: 800px;
+			top: 200px;
+		}
+		#clrbxgg{
+              height: 50px;
+			width: 50px;
+			background-color: green;
+			border:1px solid black;
+			position: absolute;
+			left: 900px;
+			top: 150px;
+		}
+		#clrbxya{
+			 height: 50px;
+			width: 50px;
+			background-color: yellow;
+			border:1px solid black;
+			position: absolute;
+			left: 950px;
+			top: 450px;
+		}
+		
+		#clrbxyb{
+			 height: 50px;
+			width: 50px;
+			background-color: yellow;
+			border:1px solid black;
+			position: absolute;
+			left: 1000px;
+			top: 450px;
+		}
+		#clrbxyc{
+			 height: 50px;
+			width: 50px;
+			background-color: yellow;
+			border:1px solid black;
+			position: absolute;
+			left: 1050px;
+			top: 450px;
+		}
+		#clrbxyd{
+			 height: 50px;
+			width: 50px;
+			background-color: yellow;
+			border:1px solid black;
+			position: absolute;
+			left: 1100px;
+			top: 450px;
+		}
+		#clrbxye{
+			 height: 50px;
+			width: 50px;
+			background-color: yellow;
+			border:1px solid black;
+			position: absolute;
+			left: 1150px;
+			top: 450px;
+		}
+		#clrbxyf{
+			 height: 50px;
+			width: 50px;
+			background-color: yellow;
+			border:1px solid black;
+			position: absolute;
+			left: 1100px;
+			top: 400px;
+		}
+		#clrbxyg{
+			 height: 50px;
+			width: 50px;
+			background-color: yellow;
+			border:1px solid black;
+			position: absolute;
+			left: 1150px;
+			top: 500px;
+		}
+
+	#clrbxba{
+		    height: 50px;
+			width: 50px;
+			background-color: blue;
+			border:1px solid black;
+			position: absolute;
+			left: 850px;
+			top: 550px;
+	}	
+
+	#clrbxbb{
+		    height: 50px;
+			width: 50px;
+			background-color: blue;
+			border:1px solid black;
+			position: absolute;
+			left: 850px;
+			top: 600px;
+	}
+
+	#clrbxbc{
+		    height: 50px;
+			width: 50px;
+			background-color: blue;
+			border:1px solid black;
+			position: absolute;
+			left: 850px;
+			top: 650px;
+	}
+
+	#clrbxbd{
+		    height: 50px;
+			width: 50px;
+			background-color: blue;
+			border:1px solid black;
+			position: absolute;
+			left: 850px;
+			top: 700px;
+	}
+
+	#clrbxbe{
+		    height: 50px;
+			width: 50px;
+			background-color: blue;
+			border:1px solid black;
+			position: absolute;
+			left: 850px;
+			top: 750px;
+	}
+
+	#clrbxbf{
+		    height: 50px;
+			width: 50px;
+			background-color: blue;
+			border:1px solid black;
+			position: absolute;
+			left: 900px;
+			top: 700px;
+	}
+
+	#clrbxbg{
+		    height: 50px;
+			width: 50px;
+			background-color: blue;
+	        border:1px solid black;
+			position: absolute;
+			left: 800px;
+			top: 750px;
+	}
+     #rwa{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left: 750px;
+			top: 500px;
+	}
+     #rwb{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left: 700px;
+			top: 500px;
+	}
+
+	#rwc{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left: 650px;
+			top: 500px;
+	}
+	#rwd{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left: 550px;
+			top: 500px;
+	}
+	#rwe{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left: 500px;
+			top: 500px;
+	}
+	#rwf{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left: 500px;
+			top: 450px;
+	}
+	#rwg{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left: 500px;
+			top: 400px;
+	}
+	#rwh{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left: 600px;
+			top: 400px;
+	}
+	#rwi{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left: 650px;
+			top: 400px;
+	}
+	#rwj{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left: 700px;
+			top: 400px;
+	}
+	#rwk{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:750px;
+			top: 400px;
+	}
+	#gwa{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:800px;
+			top: 350px;
+	}
+	#gwb{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:800px;
+			top: 300px;
+	}
+	#gwc{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:800px;
+			top: 250px;
+	}
+	#gwd{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:800px;
+			top: 150px;
+	}
+	#gwe{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:800px;
+			top: 100px;
+	}
+	#gwf{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:850px;
+			top: 100px;
+	}
+	#gwg{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:900px;
+			top: 100px;
+	}
+	#gwh{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:900px;
+			top: 200px;
+	}
+	#gwi{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:900px;
+			top: 250px;
+	}
+	#gwj{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:900px;
+			top: 300px;
+	}
+	#gwk{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:900px;
+			top: 350px;
+	}
+     #ywa{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:950px;
+			top: 400px;
+	}
+       #ywb{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:1000px;
+			top: 400px;
+	}
+	  #ywc{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:1050px;
+			top: 400px;
+	}
+	  #ywd{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:1150px;
+			top: 400px;
+	}
+	  #ywe{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:1200px;
+			top: 400px;
+	}
+	  #ywf{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:1200px;
+			top: 450px;
+	}
+	  #ywg{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:1200px;
+			top: 500px;
+	}
+	  #ywh{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:1100px;
+			top: 500px;
+	}
+	  #ywi{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:1050px;
+			top: 500px;
+	}
+	  #ywj{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:1000px;
+			top: 500px;
+	}
+	  #ywk{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:950px;
+			top: 500px;
+	}
+	 #bwa{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:900px;
+			top: 550px;
+	}
+	   #bwb{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:900px;
+			top: 600px;
+	}
+	#bwc{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:900px;
+			top: 650px;
+	}
+	#bwd{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:900px;
+			top: 750px;
+	}
+	#bwe{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:900px;
+			top: 800px;
+	}
+	#bwf{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:850px;
+			top: 800px;
+	}
+	#bwg{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:800px;
+			top: 800px;
+	}
+	#bwh{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:800px;
+			top: 700px;
+	}
+	#bwi{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:800px;
+			top: 650px;
+	}
+	#bwj{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:800px;
+			top: 600px;
+	}
+	#bwk{
+     	    height: 50px;
+			width: 50px;
+			background-color: white;
+	        border:1px solid black;
+			position: absolute;
+			left:800px;
+			top: 550px;
+	}
+	#reddiv{
+		height: 300px;
+		width: 300px;
+		background-color: red;
+		border:2px solid black;
+		position: absolute;
+		left: 500px;
+		top: 100px; 
+		z-index: 1;
+	}
+	#greendiv{
+		height: 300px;
+		width: 300px;
+		background-color: green;
+		border:2px solid black;
+		position: absolute;
+		left: 950px;
+		top: 100px; 
+		z-index: 1;
+	}
+	#yellowdiv{
+		height: 300px;
+		width: 300px;
+		background-color: yellow;
+		border:2px solid black;
+		position: absolute;
+		left: 950px;
+		top: 550px; 
+		z-index: 1;
+	}
+	#bluediv{
+		height: 300px;
+		width: 300px;
+		background-color: blue;
+		border:2px solid black;
+		position: absolute;
+		left: 500px;
+		top: 550px; 
+		z-index: 1;
+	}
+	#rminidiv{
+		height: 200px;
+		width: 200px;
+		background-color: white;
+		border:1px solid black;
+		position: absolute;
+		left: 550px;
+		top: 150px;
+		z-index: 2;
+	}
+     #gminidiv{
+		height: 200px;
+		width: 200px;
+		background-color: white;
+		border:1px solid black;
+		position: absolute;
+		left: 1000px;
+		top: 150px;
+		z-index: 2;
+	}
+	#yminidiv{
+		height: 200px;
+		width: 200px;
+		background-color: white;
+		border:1px solid black;
+		position: absolute;
+		left: 1000px;
+		top: 600px;
+		z-index: 2;
+	}
+	#bminidiv{
+		height: 200px;
+		width: 200px;
+		background-color: white;
+		border:1px solid black;
+		position: absolute;
+		left: 550px;
+		top: 600px;
+		z-index: 2;
+	}
+	#rca{
+		height: 50px;
+		width: 50px;
+		background-color: red;
+		border:1px solid black;
+		position: absolute;
+		left: 30px;
+		top: 30px;
+		z-index: 3;
+	}
+	#rcb{
+		height: 50px;
+		width: 50px;
+		background-color: red;
+		border:1px solid black;
+		position: absolute;
+		left: 120px;
+		top: 30px;
+		z-index: 3;
+	}
+	#rcc{
+		height: 50px;
+		width: 50px;
+		background-color: red;
+		border:1px solid black;
+		position: absolute;
+		left: 30px;
+		top: 120px;
+		z-index: 3;
+	}
+	#rcd{
+		height: 50px;
+		width: 50px;
+		background-color: red;
+		border:1px solid black; 
+		position: absolute;
+		left: 120px;
+		top: 120px;
+		z-index: 3;
+	}
+	#gca{
+		height: 50px;
+		width: 50px;
+		background-color: green;
+		border:1px solid black; 
+		position: absolute;
+		left: 30px;
+		top: 30px;
+		z-index: 3;
+	}
+	#gcb{
+		height: 50px;
+		width: 50px;
+		background-color: green;
+		border:1px solid black; 
+		position: absolute;
+		left: 120px;
+		top: 30px;
+		z-index: 3;
+	}
+	#gcc{
+		height: 50px;
+		width: 50px;
+		background-color: green;
+		border:1px solid black; 
+		position: absolute;
+		left: 30px;
+		top: 120px;
+		z-index: 3;
+	}
+	#gcd{
+		height: 50px;
+		width: 50px;
+		background-color: green;
+		border:1px solid black; 
+		position: absolute;
+		left: 120px;
+		top: 120px;
+		z-index: 3;
+	}
+	#yca{
+		height: 50px;
+		width: 50px;
+		background-color: yellow;
+		border:1px solid black; 
+		position: absolute;
+		left: 30px;
+		top: 30px;
+		z-index: 3;
+	}
+	#ycb{
+		height: 50px;
+		width: 50px;
+		background-color: yellow;
+		border:1px solid black; 
+		position: absolute;
+		left: 120px;
+		top: 30px;
+		z-index: 3;
+	}
+	#ycc{
+		height: 50px;
+		width: 50px;
+		background-color: yellow;
+		border:1px solid black; 
+		position: absolute;
+		left: 30px;
+		top: 120px;
+		z-index: 3;
+	}
+	#ycd{
+		height: 50px;
+		width: 50px;
+		background-color: yellow;
+		border:1px solid black; 
+		position: absolute;
+		left: 120px;
+		top: 120px;
+		z-index: 3;
+	}
+	
+	#bca{
+		height: 50px;
+		width: 50px;
+		background-color: blue;
+		border:1px solid black; 
+		position: absolute;
+		left: 30px;
+		top: 30px;
+		z-index: 3;
+	}
+	#bcb{
+		height: 50px;
+		width: 50px;
+		background-color: blue;
+		border:1px solid black; 
+		position: absolute;
+		left: 120px;
+		top: 30px;
+		z-index: 3;
+	}
+	#bcc{
+		height: 50px;
+		width: 50px;
+		background-color: blue;
+		border:1px solid black; 
+		position: absolute;
+		left: 30px;
+		top: 120px;
+		z-index: 3;
+	}
+	#bcd{
+		height: 50px;
+		width: 50px;
+		background-color: blue;
+		border:1px solid black; 
+		position: absolute;
+		left: 120px;
+		top: 120px;
+		z-index: 3;
+	}
+	#aaa{
+		height: 50px;
+		width: 50px;
+		background-color: red;
+		border:1px solid black;
+		border-radius: 50px;
+		position: absolute;
+		left: 0px;
+		top: 45px;
+		z-index: 2;
+	}
+	#aab{
+		height: 50px;
+		width: 50px;
+		background-color: green;
+		border:1px solid black;
+		border-radius: 50px;
+		position: absolute;
+		left: 45px;
+		top: 0px;
+		z-index: 2;
+	}
+	#aac{
+		height: 50px;
+		width: 50px;
+		background-color: yellow;
+		border:1px solid black;
+		border-radius: 50px;
+		position: absolute;
+		right: 3px;
+		top: 45px;
+		z-index: 2;
+	}
+	#aad{
+		height: 50px;
+		width: 50px;
+		background-color: blue;
+		border:1px solid black;
+		border-radius: 50px;
+		position: absolute;
+		left: 45px;
+		bottom: 3px;
+		z-index: 2;
+	}
+	#cc{
+		height: 50px;
+		width: 50px;
+		background-color: white;
+		border:1px solid black;
+		border-radius: 50px;
+		position: absolute;
+		left: 47px;
+		bottom: 47px;
+		z-index: 2;
+	}
+	#rclrca{
+		height: 20px;
+		width: 20px;
+		background-color: black;
+		border:1px solid black;
+		border-radius: 20px;
+		position: absolute;
+		left: 12px;
+		top: 12px;
+		z-index: 2
+	}
+	#rclrcb{
+		height: 20px;
+		width: 20px;
+		background-color: black;
+		border:1px solid black;
+		border-radius: 20px;
+		position: absolute;
+		left: 12px;
+		top: 12px;
+		z-index: 2
+	}
+	#gclrca{
+		height: 20px;
+		width: 20px;
+		background-color: black;
+		border:1px solid black;
+		border-radius: 20px;
+		position: absolute;
+		left: 12px;
+		top: 12px;
+		z-index: 2
+	}
+	#gclrcb{
+		height: 20px;
+		width: 20px;
+		background-color: black;
+		border:1px solid black;
+		border-radius: 20px;
+		position: absolute;
+		left: 12px;
+		top: 12px;
+		z-index: 2
+	}
+	#yclrca{
+		height: 20px;
+		width: 20px;
+		background-color: black;
+		border:1px solid black;
+		border-radius: 20px;
+		position: absolute;
+		left: 12px;
+		top: 12px;
+		z-index: 2
+	}
+	#yclrcb{
+		height: 20px;
+		width: 20px;
+		background-color: black;
+		border:1px solid black;
+		border-radius: 20px;
+		position: absolute;
+		left: 12px;
+		top: 12px;
+		z-index: 2
+	}
+	#bclrca{
+		height: 20px;
+		width: 20px;
+		background-color: black;
+		border:1px solid black;
+		border-radius: 20px;
+		position: absolute;
+		left: 12px;
+		top: 12px;
+		z-index: 2
+	}
+	#bclrcb{
+		height: 20px;
+		width: 20px;
+		background-color: black;
+		border:1px solid black;
+		border-radius: 20px;
+		position: absolute;
+		left: 12px;
+		top: 12px;
+		z-index: 2
+	}
+	#minicircle{
+		height: 20px;
+		width: 20px;
+		background-color: black;
+		border:1px solid black;
+		border-radius: 20px;
+		position: absolute;
+		left: 13px;
+		top: 13px;
+		z-index: 2
+	}
+
+	</style>
+	<title></title>
+	
+</head>
+<body>
+	<div id="aa">
+		<div id="aaa"></div>
+		<div id="aab"></div>
+		<div id="aac"></div>
+		<div id="aad"></div>
+		<div id="cc">
+			<div id="minicircle"></div>
+		</div>
+	</div>
+
+	<div id="clrbxra"></div>
+	<div id="clrbxrb"></div>
+	<div id="clrbxrc"></div>
+	<div id="clrbxrd"></div>
+	<div id="clrbxre"></div>
+	<div id="clrbxrf">
+		<div id="rclrca"></div>
+	</div>
+	<div id="clrbxrg">
+		<div id="rclrcb"></div>
+	</div>
+
+
+	<div id="clrbxga"></div>
+	<div id="clrbxgb"></div>
+	<div id="clrbxgc"></div>
+	<div id="clrbxgd"></div>
+	<div id="clrbxge"></div>
+	<div id="clrbxgf">
+		<div id="gclrca"></div>
+	</div>
+	<div id="clrbxgg">
+		<div id="gclrcb"></div>
+	</div>
+
+
+	<div id="clrbxya"></div>
+	<div id="clrbxyb"></div>
+	<div id="clrbxyc"></div>
+	<div id="clrbxyd"></div>
+	<div id="clrbxye"></div>
+	<div id="clrbxyf">
+		<div id="yclrca"></div>
+	</div>
+	<div id="clrbxyg">
+		<div id="yclrcb"></div>
+	</div>
+
+	<div id="clrbxba"></div>
+	<div id="clrbxbb"></div>
+	<div id="clrbxbc"></div>
+	<div id="clrbxbd"></div>
+	<div id="clrbxbe"></div>
+	<div id="clrbxbf">
+		<div id="bclrca"></div>
+	</div>
+	<div id="clrbxbg">
+		<div id="bclrcb"></div>
+	</div>
+
+	<div id="rwa"></div>
+	<div id="rwb"></div>
+	<div id="rwc"></div>
+	<div id="rwd"></div>
+	<div id="rwe"></div>
+	<div id="rwf"></div>
+	<div id="rwg"></div>
+	<div id="rwh"></div>
+	<div id="rwi"></div>
+	<div id="rwj"></div>
+	<div id="rwk"></div>
+
+    <div id="gwa"></div>
+	<div id="gwb"></div>
+	<div id="gwc"></div>
+	<div id="gwd"></div>
+	<div id="gwe"></div>
+	<div id="gwf"></div>
+	<div id="gwg"></div>
+	<div id="gwh"></div>
+	<div id="gwi"></div>
+	<div id="gwj"></div>
+	<div id="gwk"></div>
+
+    <div id="ywa"></div>
+	<div id="ywb"></div>
+	<div id="ywc"></div>
+	<div id="ywd"></div>
+	<div id="ywe"></div>
+	<div id="ywf"></div>
+	<div id="ywg"></div>
+	<div id="ywh"></div>
+	<div id="ywi"></div>
+	<div id="ywj"></div>
+	<div id="ywk"></div>
+    
+    <div id="bwa"></div>
+	<div id="bwb"></div>
+	<div id="bwc"></div>
+	<div id="bwd"></div>
+	<div id="bwe"></div>
+	<div id="bwf"></div>
+	<div id="bwg"></div>
+	<div id="bwh"></div>
+	<div id="bwi"></div>
+	<div id="bwj"></div>
+	<div id="bwk"></div>
+
+	<div id="reddiv"></div>
+
+    <div id="greendiv"></div>
+
+    <div id="yellowdiv"></div>
+
+    <div id="bluediv"></div>
+
+    <div id="rminidiv">
+    	<div id="rca"></div>
+		<div id="rcb"></div>
+		<div id="rcc"></div>
+		<div id="rcd"></div>
+
+    </div>
+
+    <div id="gminidiv">
+    	<div id="gca"></div>
+    	<div id="gcb"></div>
+    	<div id="gcc"></div>
+    	<div id="gcd"></div>
+    </div>
+
+    <div id="yminidiv">
+    	<div id="yca"></div>
+    	<div id="ycb"></div>
+    	<div id="ycc"></div>
+    	<div id="ycd"></div>
+    </div>
+
+    <div id="bminidiv">
+    	<div id="bca"></div>
+    	<div id="bcb"></div>
+    	<div id="bcc"></div>
+    	<div id="bcd"></div>
+    </div>
+
+</body>
+</html>
